@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maatila</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="header_inner">
+            <div class="util_inner">
+                <nav class="util">
+                    <ul>
+                        <li><a href="#">login</a></li>
+                        <li><a href="#">join</a></li>
+                        <li><a href="#">my page</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="gnb_inner">
+                <h1 class="logo">
+                    <a href="#"><img src="img/logo1.png" alt="마틸라"></a>
+                </h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="#">best</a></li>
+                        <li><a href="#">침구</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">전체보기</a></li>
+                                <li><a href="#">차렵이불</a></li>
+                                <li><a href="#">극세사이불</a></li>
+                                <li><a href="#">침대패드</a></li>
+                                <li><a href="#">커버</a></li>
+                                <li><a href="#">솜·구스</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">curtain</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">전체보기</a></li>
+                                <li><a href="#">1+1 커튼</a></li>
+                                <li><a href="#">암막커튼</a></li>
+                                <li><a href="#">베이직라인</a></li>
+                                <li><a href="#">린넨·면 커튼</a></li>
+                                <li><a href="#">속커튼</a></li>
+                                <li><a href="#">커튼부자재</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">rug</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">전체보기</a></li>
+                                <li><a href="#">발매트</a></li>
+                                <li><a href="#">주방매트</a></li>
+                                <li><a href="#">카페트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">living &#183; deco</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">전체보기</a></li>
+                                <li><a href="#">쿠션방석</a></li>
+                                <li><a href="#">타월</a></li>
+                                <li><a href="#">블랭킷</a></li>
+                                <li><a href="#">쇼파패드</a></li>
+                                <li><a href="#">앞치마</a></li>
+                                <li><a href="#">파우치</a></li>
+                                <li><a href="#">실내화</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">고객센터</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">자주묻는 질문</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">문의게시판</a></li>
+                                <li><a href="#">1:1 맞춤견적</a></li>
+                                <li><a href="#">배당옵션 추가</a></li>
+                                <li><a href="#">개인결제창</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">maatila story</a></li>
+                    </ul>
+                </nav>
+                <nav class="sub_util">
+                    <ul>
+                        <li><a href="#" class="search_btn"><img src="img/search.png" alt="검색"></a></li>
+                        <li><a href="#"><img src="img/cart.png" alt="장바구니"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="mob_btn">
+            <img src="img/all.png" alt="모바일 메뉴 버튼">
+        </div>
+    </header>
+    <nav class="mob_menu">
+        <ul class="mob_gnb">
+            <li><a href="#">best</a></li>
+            <li><a href="#">침구</a>
+                <ul class="sub_menu">
+                    <li><a href="#">전체보기</a></li>
+                    <li><a href="#">차렵이불</a></li>
+                    <li><a href="#">극세사이불</a></li>
+                    <li><a href="#">침대패드</a></li>
+                    <li><a href="#">커버</a></li>
+                    <li><a href="#">솜·구스</a></li>
+                </ul>
+            </li>
+            <li><a href="#">curtain</a>
+                <ul class="sub_menu">
+                    <li><a href="#">전체보기</a></li>
+                    <li><a href="#">1+1 커튼</a></li>
+                    <li><a href="#">암막커튼</a></li>
+                    <li><a href="#">베이직라인</a></li>
+                    <li><a href="#">린넨·면 커튼</a></li>
+                    <li><a href="#">속커튼</a></li>
+                    <li><a href="#">커튼부자재</a></li>
+                </ul>
+            </li>
+            <li><a href="#">rug</a>
+                <ul class="sub_menu">
+                    <li><a href="#">전체보기</a></li>
+                    <li><a href="#">발매트</a></li>
+                    <li><a href="#">주방매트</a></li>
+                    <li><a href="#">카페트</a></li>
+                </ul>
+            </li>
+            <li><a href="#">living &#183; deco</a>
+                <ul class="sub_menu">
+                    <li><a href="#">전체보기</a></li>
+                    <li><a href="#">쿠션방석</a></li>
+                    <li><a href="#">타월</a></li>
+                    <li><a href="#">블랭킷</a></li>
+                    <li><a href="#">쇼파패드</a></li>
+                    <li><a href="#">앞치마</a></li>
+                    <li><a href="#">파우치</a></li>
+                    <li><a href="#">실내화</a></li>
+                </ul>
+            </li>
+            <li><a href="#">고객센터</a>
+                <ul class="sub_menu">
+                    <li><a href="#">자주묻는 질문</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">문의게시판</a></li>
+                    <li><a href="#">1:1 맞춤견적</a></li>
+                    <li><a href="#">배당옵션 추가</a></li>
+                    <li><a href="#">개인결제창</a></li>
+                </ul>
+            </li>
+            <li><a href="brand.html">maatila story</a></li>
+        </ul>
+        <ul class="mob_util">
+            <li><a href="#">login</a></li>
+            <li><a href="#">join</a></li>
+            <li><a href="#">my page</a></li>
+        </ul>
+    </nav>
+    <section id="banner">
+        <div class="banner_wrap">
+            <ul class="banner_list">
+                <li><img src="img/banner01.jpg" alt="깊은 잠 좋은 소재, 순면"></li>
+                <li><img src="img/banner02.jpg" alt="깊은 잠 좋은 소재, 순면"></li>
+                <li><img src="img/banner03-2.jpg" alt="깊은 잠 좋은 소재, 순면"></li>
+                <li><img src="img/banner04.jpg" alt="깊은 잠 좋은 소재, 순면"></li>
+            </ul>
+        </div>
+        <div class="text_wrap">
+            <ul class="text_list">
+                <li class="banner_text1">
+                    <p>10.18-10.24</p>
+                    <h2>깊은 잠 좋은 소재, 순면</h2>
+                    <p>도즈 60수 고밀도순면 차렵이불-</p>
+                </li>
+                <li class="banner_text2">
+                    <p>10.25-10.31</p>
+                    <h2>보다 깨끗하고 더 건강하게 <br>#알러지케어</h2>
+                    <p>인증받은 알러지케어 침구 모음전</p>
+                </li>
+                <li class="banner_text3">
+                    <p>10.25-10.31</p>
+                    <h2>나른한 오후, <br>달콤한 낮잠이 필요할 땐</h2>
+                    <p>단7일 , 베이직한 컬러의 암막커튼 특가</p>
+                </li>
+                <li class="banner_text4">
+                    <p>10.18-10.31</p>
+                    <h2>10월의 마틸라, 100수 침구</h2>
+                    <p>최상급 품질의 호텔이불 구매 + 리뷰이벤트</p>
+                </li>
+            </ul>
+        </div>
+        <div class="view_btn">
+            <a href="#"><img src="img/view_more.png" alt="더보기">
+            <span></span></a>
+        </div>
+        <div class="view_s">
+            <a href="#">view more ></a>
+        </div>
+        <ul class="controls">
+            <li class="select"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="search_wrap">
+            <div class="close_btn"><img src="img/close.png" alt="닫기"></div>
+            <h3>search</h3>
+            <div class="search_box">
+                <input type="text" placeholder="search">
+                <a href="#"><img src="img/search_icon.png" alt="검색"></a>
+            </div>
+            <div class="search_tabs">
+                <ul class="search_list">
+                    <li><a href="#">극세사이불</a></li>
+                    <li><a href="#">간절기이불</a></li>
+                    <li><a href="#">60수차렵이불</a></li>
+                    <li><a href="#">모달이불</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="prev_btn"><img src="img/prev_btn02.png" alt="이전 배너"></div>
+        <div class="next_btn"><img src="img/next_btn02.png" alt="다음 배너"></div>
+    </section>
+    <section id="best">
+        <div class="best_wrap">
+            <h3>best seller</h3><span class="line"></span>
+            <ul class="best_list">
+                <li class="best_text1">
+                    <span class="best">best</span>
+                    <span class="heart"></span>
+                    <div class="img_wrap">
+                        <a href="#"><img src="img/best1.jpg" alt=""></a>
+                    </div>
+                    <p class="product_name">마틸라 프리미엄 극세사 겨울 차렵이불</p>
+                    <p class="product_price">₩ 39,900</p>
+                </li>
+                <li class="best_text2">
+                    <span class="best">best</span>
+                    <span class="heart"></span>
+                    <div class="img_wrap">
+                        <a href="#"><img src="img/best2.jpg" alt=""></a>
+                    </div>
+                    <p class="product_name">크림샌드 고밀도60수 양면 차렵이불<br> 
+                        민트라떼 (SS/Q)</p>
+                    <p class="product_price">₩ 69,900</p>
+                </li>
+                <li class="best_text3">
+                    <span class="best">best</span>
+                    <span class="heart"></span>
+                    <div class="img_wrap">
+                        <a href="#"><img src="img/best3.jpg" alt=""></a>
+                    </div>
+                    <p class="product_name">2021 프리미엄 호텔 이불커버</p>
+                    <p class="product_price">₩ 24,900</p>
+                </li>
+                <li class="best_text4">
+                    <span class="best">best</span>
+                    <span class="heart"></span>
+                    <div class="img_wrap">
+                        <a href="#"><img src="img/best4.jpg" alt=""></a>
+                    </div>
+                    <p class="product_name">클라우드 60수광목 차렵이불<br> 
+                        아이보리(SS/Q)</p>
+                    <p class="product_price">₩ 49,900</p>
+                </li>
+                <li class="best_text5">
+                    <span class="best">best</span>
+                    <span class="heart"></span>
+                    <div class="img_wrap">
+                        <a href="#"><img src="img/best9.jpg" alt=""></a>
+                    </div>
+                    <p class="product_name">허그미 먼지없는 차렵이불<br> 
+                        젤리곰(SS/Q)</p>
+                    <p class="product_price">₩ 29,900</p>
+                </li>
+                <li class="best_text6">
+                    <span class="best">best</span>
+                    <span class="heart"></span>
+                    <div class="img_wrap">
+                        <a href="#"><img src="img/best10.jpg" alt=""></a>
+                    </div>
+                    <p class="product_name">소프트밍크 극세사 침대패드<br> 
+                        3컬러(SS/Q)</p>
+                    <p class="product_price">₩ 29,900</p>
+                </li>
+                <li class="best_text7">
+                    <span class="best">best</span>
+                    <span class="heart"></span>
+                    <div class="img_wrap">
+                        <a href="#"><img src="img/best11.jpg" alt=""></a>
+                    </div>
+                    <p class="product_name">이브정원 피그먼트 이불겸패드<br> 
+                        10컬러(SS/Q)</p>
+                    <p class="product_price">₩ 29,900</p>
+                </li>
+                <li class="best_text8">
+                    <span class="best">best</span>
+                    <span class="heart"></span>
+                    <div class="img_wrap">
+                        <a href="#"><img src="img/best12.jpg" alt=""></a>
+                    </div>
+                    <p class="product_name">가드 M2 알러지케어 극세사 차렵이불<br> 
+                        깅엄베이지(SS/Q)</p>
+                    <p class="product_price">₩ 44,900</p>
+                </li>
+            </ul>
+            <div class="prev_btn"><img src="img/prev3.png" alt="이전 배너"></div>
+            <div class="next_btn"><img src="img/next3.png" alt="다음 배너"></div>
+        </div>
+    </section>
+    <section id="time">
+        <div class="time_inner">
+            <h3>time sale</h3><span class="clock"></span><span class="line"></span>
+            <div class="time_left">
+                <ul class="time_list">
+                    <li><a href="#"><img src="img/time1.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/time2.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/time3.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/time4.png" alt=""></a></li>
+                </ul>
+                <div class="t_prev_btn"><img src="img/time_prev.png" alt="이전"></div>
+                <div class="t_next_btn"><img src="img/time_next.png" alt="다음"></div>
+            </div>
+            <ul class="time_right">
+                <li class="time_right_text1">
+                    <h4>count down</h4>
+                    <div class="time_num" >
+                        <p id="days"></p>
+                        <p>:</p>
+                        <p id= "hours"></p>
+                        <p>:</p>
+                        <p id = "minutes"></p>
+                        <p>:</p>
+                        <p id = "seconds"></p>
+                    </div>
+                    <div class="time_count_text">
+                        <p>days</p>
+                        <p>hours</p>
+                        <p>minute</p>
+                        <p>seconds</p>
+                    </div>
+                    <div class="event_text">
+                        <p class="event_ex">차가운 공기가 감도는 계절,<br>
+                        도톰한 이불 속에서 기분 좋은 따뜻함을 느껴보세요.</p>
+                        <h5 class="event_name">보헤미안 모달니트 차렵이불</h5>
+                        <p class="event_per">40%</p>
+                        <p class="event_price">￦ 49,900</p>
+                    </div>
+                    <div class="buy_btn">
+                        <a href="#"><img src="img/time_btn.png">
+                        <span></span></a>
+                    </div>
+                </li>
+                <li class="time_right_text2">
+                    <h4>count down</h4>
+                    <div class="time_num" >
+                        <p id="days2"></p>
+                        <p>:</p>
+                        <p id= "hours2"></p>
+                        <p>:</p>
+                        <p id = "minutes2"></p>
+                        <p>:</p>
+                        <p id = "seconds2"></p>
+                    </div>
+                    <div class="time_count_text">
+                        <p>days</p>
+                        <p>hours</p>
+                        <p>minute</p>
+                        <p>seconds</p>
+                    </div>
+                    <div class="event_text">
+                        <p class="event_ex">몽글몽글 기분 좋은 촉감을 가진 극세사,<br>
+                            차분하고 은은한 올리브.</p>
+                        <h5 class="event_name">무브 소프트 세미 극세사 차렵이불<br>-버진올리브(SS/Q)</h5>
+                        <p class="event_per">46%</p>
+                        <p class="event_price">￦ 35,900</p>
+                    </div>
+                    <div class="buy_btn">
+                        <a href="#"><img src="img/time_btn.png">
+                        <span></span></a>
+                    </div>
+                </li>
+                <li class="time_right_text3">
+                    <h4>count down</h4>
+                    <div class="time_num" >
+                        <p id="days3"></p>
+                        <p>:</p>
+                        <p id= "hours3"></p>
+                        <p>:</p>
+                        <p id = "minutes3"></p>
+                        <p>:</p>
+                        <p id = "seconds3"></p>
+                    </div>
+                    <div class="time_count_text">
+                        <p>days</p>
+                        <p>hours</p>
+                        <p>minute</p>
+                        <p>seconds</p>
+                    </div>
+                    <div class="event_text">
+                        <p class="event_ex">보들보들 기분 좋은 촉감의 침구,<br>
+                            진하고 달콤한 크림의 컬러</p>
+                        <h5 class="event_name">스테이 먼지없는 차렵이불<br>-크림(SS/Q)</h5>
+                        <p class="event_per">30%</p>
+                        <p class="event_price">￦ 29,900</p>
+                    </div>
+                    <div class="buy_btn">
+                        <a href="#"><img src="img/time_btn.png">
+                        <span></span></a>
+                    </div>
+                </li>
+                <li class="time_right_text4">
+                    <h4>count down</h4>
+                    <div class="time_num" >
+                        <p id="days4"></p>
+                        <p>:</p>
+                        <p id= "hours4"></p>
+                        <p>:</p>
+                        <p id = "minutes4"></p>
+                        <p>:</p>
+                        <p id = "seconds4"></p>
+                    </div>
+                    <div class="time_count_text">
+                        <p>days</p>
+                        <p>hours</p>
+                        <p>minute</p>
+                        <p>seconds</p>
+                    </div>
+                    <div class="event_text">
+                        <p class="event_ex">단정하고 심플한 형태,<br>
+                            다정하게 다가오는 차분하고 소프트한 톤의 민트</p>
+                        <h5 class="event_name">스테이 먼지없는 차렵이불<br>-민트(SS/Q)</h5>
+                        <p class="event_per">30%</p>
+                        <p class="event_price">￦ 29,900</p>
+                    </div>
+                    <div class="buy_btn">
+                        <a href="#"><img src="img/time_btn.png">
+                        <span></span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="trend">
+        <div class="trend_inner">
+            <div class="trend_wrap">
+                <h3>trend keyword</h3><span class="line"></span><br>
+                <h4>실시간 인기 키워드</h4>
+                <p>고객분들이 구매해주신 테마별 베스트셀러</p>
+                <div class="trend_tabs">
+                    <ul class="tabs_list">
+                        <li><a href="#">#극세사이불</a></li>
+                        <li><a href="#">#간절기이불</a></li>
+                        <li><a href="#">#암막커튼세트</a></li>
+                        <li><a href="#">#60수침구세트</a></li>
+                        <li><a href="#">#알러지케어이불</a></li>
+                    </ul>
+                </div>
+                <div class="trend_p_box">
+                    <ul class="trend_list">
+                        <li><a href="#"><img src="img/trend1.png" alt="">
+                            <div class="trend_text">
+                                <p class="product_name">무브 소프트 세미 극세사 차렵이불</p>
+                                <p class="product_info">몽글몽글 기분 좋은 극세사 촉감에<br>상큼 달콤함이 가득</p>
+                                <p class="product_price">₩ 35,900</p>
+                            </div></a>
+                        </li>
+                        <li><a href="#"><img src="img/trend2.png" alt="">
+                            <div class="trend_text">
+                                <p class="product_name">도즈 60수 고밀도순면 극세사 차렵이불</p>
+                                <p class="product_info">겉은 사박사박하고 속은 부드러움과<br> 온기가 가득한 겨울 극세사 이불</p>
+                                <p class="product_price">₩ 59,900</p>
+                            </div></a>
+                        </li>
+                        <li><a href="#"><img src="img/trend3.png" alt="">
+                            <div class="trend_text">
+                                <p class="product_name">텐더 소프트 세미 극세사 차렵이불</p>
+                                <p class="product_info">몽글몽글 기분좋은 촉감을 가진 극세사 이불</p>
+                                <p class="product_price">₩ 39,900</p>
+                            </div></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="home_inner">
+            <div class="home_wrap">
+                <h3>home &amp; deco </h3><span class="line"></span>
+                <ul class="home_list">
+                    <li>
+                        <a href="#"><img src="img/home1.jpg" alt=""></a>
+                        <p class="heart"></p>
+                        <div class="overbox">
+                            <div class="home_text">
+                                <p class="product_name">모로코 호텔 카페트 (180X230)</p>
+                                <p class="product_price">₩ 249,900</p>
+                                <div class="homeview_btn"><a href="#">view more</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/home2.jpg" alt=""></a>
+                        <p class="heart"></p>
+                        <div class="overbox">
+                            <div class="homeview_btn"><a href="#">view more</a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/home3.jpg" alt=""></a>
+                        <p class="heart"></p>
+                        <div class="overbox">
+                            <div class="homeview_btn"><a href="#">view more</a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/home4.jpg" alt=""></a>
+                        <p class="heart"></p>
+                        <div class="overbox">
+                            <div class="homeview_btn"><a href="#">view more</a></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="home_text">
+                    <ul>
+                        <li>
+                            <p class="product_name">헨리 암막+나비주름 속커튼(세트) 7종</p>
+                            <p class="product_info">당신의 숙면을 도와줄 암막커튼+속커튼</p>
+                            <p class="product_price">₩ 69,800</p>
+                        </li>
+                        <li>
+                            <p class="product_name">컴포터블 먼지없는 사계절 쇼파패드</p>
+                            <p class="product_info">땀을 흡수하여 보송보송하게,<br> 포근하고 아늑하게 해주는 쇼파패드</p>
+                            <p class="product_price">₩ 19,900</p>
+                        </li>
+                        <li>
+                            <p class="product_name">베스트프렌드 발매트(45X65)</p>
+                            <p class="product_info">언제나 함께하는 환상의 짝궁,<br> 귀여운 우리는 "베스트프렌드"</p>
+                            <p class="product_price">₩ 19,900</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="brand">
+        <div class="brand_inner">
+            <div class="brand_wrap">
+                <h3>brand story</h3><span class="line"></span>
+                <p>자연을 모티브로 한 유니크한 디자인, <br>
+                    품질 좋은 국내산 소재를 연구하며 숙면에 가장 적합한 침구와 <br>
+                    패브릭 제품을 개발하여 리빙 트렌드를 제안합니다.
+                </p>
+                <div class="view_btn">
+                    <a href="#"><img src="img/view.png" alt="더보기">
+                    <span></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="insta">
+        <div class="insta_inner">
+            <h3>instagram</h3><span class="insta_icon"></span><span class="line"></span>
+            <!-- <p class="insta_id">@maatila_living_design</p> -->
+            <div class="insta_wrap">
+                <ul class="insta_list">
+                    <li>
+                        <a href="https://www.instagram.com/p/CUU4-ovvnic/?utm_source=ig_web_copy_link"><img src="img/insta1.jpg" alt="">
+                        <div class="overbox">
+                            <p>@maatila_living_design</p>
+                        </div></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/p/CS-ffO_JSPc/?utm_source=ig_web_copy_link"><img src="img/insta2.jpg" alt="">
+                        <div class="overbox">
+                            <p>@maatila_living_design</p>
+                        </div></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/p/CICRcW8jnM5/?utm_source=ig_web_copy_link"><img src="img/insta3.jpg" alt="">
+                        <div class="overbox">
+                            <p>@maatila_living_design</p>
+                        </div></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/p/CL_ZzrDDgJP/?utm_source=ig_web_copy_link"><img src="img/insta4.jpg" alt="">
+                        <div class="overbox">
+                            <p>@maatila_living_design</p>
+                        </div></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/p/CH9v2dED9sU/?utm_source=ig_web_copy_link"><img src="img/insta5.jpg" alt="">
+                        <div class="overbox">
+                            <p>@maatila_living_design</p>
+                        </div></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer_top">
+            <div class="ftTop">
+                <div class="ftTop_left">
+                    <h5>CS CENTER</h5>
+                    <p class="number">02-928-6300</p>
+                    <p>평일 MONDAY - FRIDAY 11AM - 4PM<br>
+                        점심시간 LUNCH 12PM - 1PM<br>
+                        토·일요일, 공휴일은 휴무로 문의 게시판을 이용해주세요</p>
+                </div>
+                <div class="ftTop_middle">
+                    <h5>HEAD OFFICE</h5>
+                    <p>본사 : 서울특별시 성동구 아차산로 17, 서울숲 L타워 15층<br>
+                        TEL 02-928-6300, FAX 02-921-3806<br>
+                        E-MAIL  leejy@maatila.co.kr (입점/제휴문의)<br>
+                        handk@maatila.co.kr (도매/수출/광고문의)
+                    </p>
+                </div>
+                <div class="ftTop_right">
+                    <h5>BANKING ACCOUNT</h5>
+                    <p>· 국민은행 036137-04-003048  (주) 더메종<br>
+                        · 신한은행 100-031-162484  (주) 더메종
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>주식회사 더메종 사업자등록번호 : 266-88-00272 [사업자정보확인]<br>
+                대표자 : 이준엽 |  개인정보 관리책임자 : 이수진 |  통신판매업 신고번호 : 2019-서울성동-01471<br>
+                <a href="#">회사소개 | 이용안내 | 이용약관 | 개인정보처리방침</a>
+            </p>
+            <p class="copy">Copyright. 2013 by 주식회사 더메종 all rights reserved.</p>
+        </div>
+    </section>
+    <div id="top">
+        <a id="top_btn" href="#"><img src="img/top.png" alt="top"></a>
+    </div>
+</body>
+</html>
